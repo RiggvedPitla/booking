@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Pass Application</title>
+</head>
+
+<body>
+    <div align="center">
+        <img src="bus1.png" alt="TSRTC Logo" width="200" height="100">
+    </div>
+    <h2 align="center">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+    <h3 align="center">GENERAL BUS PASS APPLICATION</h3>
+
+    <form>
+
+        <!-- Applicant Details -->
+        <fieldset>
+            <legend>
+                <span style="background-color: rgb(3, 172, 250);" color="white" >
+                            Applicant Details
+                </span>
+            </legend>
+
+            <label>Name:</label>
+            <input type="text" maxlength="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Father's / Guardian's Name:</label>
+            <input type="text"><br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female<br><br>
+
+            <label>Age As on:</label>
+            <input type="number" placeholder="Years">
+            <input type="number" placeholder="Months">
+            <input type="number" placeholder="Days">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Aadhaar No:</label>
+            <input type="text"><br><br>
+
+            <label>WhatsApp No:</label>
+            <input type="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>E-mail Id:</label>
+            <input type="email"><br><br>
+
+            <label>Photo:</label>
+            <input type="file"><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Residential Address -->
+        <fieldset>
+            <legend>
+                <span style="background-color: rgb(3, 172, 250);" color="white" >
+                            Residential Address Details
+                </span>
+            </legend>
+
+            <label>Applicant Address:</label><br>
+            <textarea rows="3" cols="40"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>District:</label>
+            <select>
+                <option>HYDERABAD</option>
+                <option>RANGA REDDY</option>
+                <option>MEDCHAL</option>
+                <option>kamareddy</option>
+            </select><br><br>
+
+            <label>Mandal:</label>
+            <select>
+                <option>HYDERABAD</option>
+                <option>SECUNDERABAD</option>
+                <option>kamareddy</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label>Village:</label>
+            <select>
+                <option>HYDERABAD</option>
+                <option>DEVANPULLY</option>
+            </select><br><br>
+
+            <label>Pincode:</label>
+            <input type="text"><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Pass Type -->
+        <fieldset>
+            <legend>
+                <span style="background-color: rgb(3, 172, 250);" color="white" >
+                            Pass Type Details
+                </span>
+            </legend>
+
+            <label>City:</label>
+            <select>
+                <option>Hyderabad</option>
+            </select><br><br>
+
+            <label>Pass Type:</label>
+            <select>
+                <option>----Select----</option>
+            </select><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Payment -->
+        <fieldset>
+            <legend>
+                <span style="background-color: rgb(3, 172, 250);" color="white" >
+                            Mode of Payment & Pass Collection
+                </span>
+            </legend>
+
+            <label>Payment Mode:</label>
+            <select>
+                <option>Select Payment Mode</option>
+            </select><br><br>
+
+            <label>Pass Delivery Mode:</label>
+            <select>
+                <option>Select Pass Delivery Mode</option>
+            </select><br><br>
+
+            <label>Center to Collect Pass:</label>
+            <select>
+                <option>----Select----</option>
+            </select><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- CAPTCHA -->
+        
+        <div align="center">
+            <img src="captacha.png" alt="Captcha Image" width="200" height="50">
+            <img src="re.png" width="50px"><br><br>
+        
+            <input type="text" placeholder="Enter Captcha"><br><br>
+
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+    
+</body>
+</html>
